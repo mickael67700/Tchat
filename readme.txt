@@ -1,0 +1,3 @@
+Ce code crée un serveur de tchat qui attend les connexions des clients sur le port 5217. Les clients peuvent se connecter au serveur en entrant leur nom
+d'utilisateur, et ils peuvent ensuite envoyer et recevoir des messages à travers le tchat. Les messages sont diffusés à tous les clients connectés en utilisant la méthode broadcast.
+Ce code est destiné à être utilisé sur un réseau local, et l'adresse IP utilisée pour se connecter au serveur est "127.0.0.1", qui est l'adresse IP de bouclage pour la machine locale.
