@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 public class Client {
 
-    public static void main(String[] args) throws IOException {
+    public void start() throws IOException {
+        // Code pour démarrer le client.
         Scanner sc = new Scanner(System.in);
 
         Socket s = new Socket("127.0.0.1", 5217);

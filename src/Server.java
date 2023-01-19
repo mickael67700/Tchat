@@ -10,8 +10,8 @@ public class Server {
     static ArrayList<Socket> ClientSockets;
     static ArrayList<String> LoginNames;
 
-    public static void main(String[] args) throws IOException {
-
+    public void start() throws IOException {
+        // Code pour démarrer le serveur.
         ClientSockets = new ArrayList<Socket>();
         LoginNames = new ArrayList<String>();
 
